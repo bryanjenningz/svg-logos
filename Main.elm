@@ -1,0 +1,126 @@
+module Main exposing (..)
+
+import Html exposing (..)
+import Svg as S
+import Svg.Attributes as SA
+
+
+main : Html msg
+main =
+    div []
+        [ viewChatBubbleArrow
+        , viewChatBubbleTriangles
+        , viewChatBubbleChevrons
+        ]
+
+
+viewChatBubbleArrow : Html msg
+viewChatBubbleArrow =
+    S.svg
+        [ SA.width "200", SA.height "200" ]
+        -- chat bubble triangle
+        [ S.polygon
+            [ SA.points "15,85 40,110 5,120"
+            , SA.style "fill: #5959e4; stroke: #5959e4; stroke-width: 1"
+            ]
+            []
+          -- chat bubble oval
+        , S.ellipse
+            [ SA.cx "75"
+            , SA.cy "65"
+            , SA.rx "70"
+            , SA.ry "60"
+            , SA.style "fill: #5959e4; stroke: #5959e4; stroke-width: 1"
+            ]
+            []
+          -- arrow triangle
+        , S.polygon
+            [ SA.points "45,60 75,30 105,60"
+            , SA.style "fill: #ffffff; stroke: #ffffff; stroke-width: 1"
+            ]
+            []
+          -- arrow rectangle
+        , S.polygon
+            [ SA.points "60,50 90,50 90,90 60,90"
+            , SA.style "fill: #ffffff; stroke: #ffffff; stroke-width: 1"
+            ]
+            []
+        ]
+
+
+viewChatBubbleTriangles : Html msg
+viewChatBubbleTriangles =
+    S.svg
+        [ SA.width "200", SA.height "200" ]
+        -- chat bubble triangle
+        [ S.polygon
+            [ SA.points "15,85 40,110 5,120"
+            , SA.style "fill: #5959e4; stroke: #5959e4; stroke-width: 1"
+            ]
+            []
+          -- chat bubble oval
+        , S.ellipse
+            [ SA.cx "75"
+            , SA.cy "65"
+            , SA.rx "70"
+            , SA.ry "60"
+            , SA.style "fill: #5959e4; stroke: #5959e4; stroke-width: 1"
+            ]
+            []
+          -- top triangle
+        , S.polygon
+            [ SA.points "45,55 75,25 105,55"
+            , SA.style "fill: #ffffff; stroke: #ffffff; stroke-width: 1"
+            ]
+            []
+          -- bottom triangle
+        , S.polygon
+            [ SA.points "45,95 75,65 105,95"
+            , SA.style "fill: #ffffff; stroke: #ffffff; stroke-width: 1"
+            ]
+            []
+        ]
+
+
+viewChatBubbleChevrons : Html msg
+viewChatBubbleChevrons =
+    S.svg
+        [ SA.width "200", SA.height "200" ]
+        -- chat bubble triangle
+        [ S.polygon
+            [ SA.points "15,85 40,110 5,120"
+            , SA.style "fill: #5959e4; stroke: #5959e4; stroke-width: 1"
+            ]
+            []
+          -- chat bubble oval
+        , S.ellipse
+            [ SA.cx "75"
+            , SA.cy "65"
+            , SA.rx "70"
+            , SA.ry "60"
+            , SA.style "fill: #5959e4; stroke: #5959e4; stroke-width: 1"
+            ]
+            []
+          -- top arrow
+        , S.polygon
+            [ SA.points "45,55 75,25 105,55"
+            , SA.style "fill: #ffffff; stroke: #ffffff; stroke-width: 1"
+            ]
+            []
+        , S.polygon
+            [ SA.points "60,55 75,40 90,55"
+            , SA.style "fill: #5959e4; stroke: #5959e4; stroke-width: 1"
+            ]
+            []
+          -- bottom arrow
+        , S.polygon
+            [ SA.points "45,95 75,65 105,95"
+            , SA.style "fill: #ffffff; stroke: #ffffff; stroke-width: 1"
+            ]
+            []
+        , S.polygon
+            [ SA.points "60,95 75,80 90,95"
+            , SA.style "fill: #5959e4; stroke: #5959e4; stroke-width: 1"
+            ]
+            []
+        ]
