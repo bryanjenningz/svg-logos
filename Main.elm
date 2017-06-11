@@ -21,7 +21,7 @@ viewChatBubbleArrow =
         -- chat bubble triangle
         [ S.polygon
             [ SA.points "15,85 40,110 5,120"
-            , SA.style "fill: #5959e4; stroke: #5959e4; stroke-width: 1"
+            , SA.style "fill: #007098; stroke: #007098; stroke-width: 1"
             ]
             []
           -- chat bubble oval
@@ -30,7 +30,7 @@ viewChatBubbleArrow =
             , SA.cy "65"
             , SA.rx "70"
             , SA.ry "60"
-            , SA.style "fill: #5959e4; stroke: #5959e4; stroke-width: 1"
+            , SA.style "fill: #007098; stroke: #007098; stroke-width: 1"
             ]
             []
           -- arrow triangle
@@ -55,7 +55,7 @@ viewChatBubbleTriangles =
         -- chat bubble triangle
         [ S.polygon
             [ SA.points "15,85 40,110 5,120"
-            , SA.style "fill: #5959e4; stroke: #5959e4; stroke-width: 1"
+            , SA.style "fill: #00c77b; stroke: #00c77b; stroke-width: 1"
             ]
             []
           -- chat bubble oval
@@ -64,7 +64,7 @@ viewChatBubbleTriangles =
             , SA.cy "65"
             , SA.rx "70"
             , SA.ry "60"
-            , SA.style "fill: #5959e4; stroke: #5959e4; stroke-width: 1"
+            , SA.style "fill: #00c77b; stroke: #00c77b; stroke-width: 1"
             ]
             []
           -- top triangle
