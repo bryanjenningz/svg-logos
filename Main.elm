@@ -101,7 +101,7 @@ viewChatBubbleChevrons =
             , SA.style "fill: #5959e4; stroke: #5959e4; stroke-width: 1"
             ]
             []
-          -- top arrow
+          -- top chevron
         , S.polygon
             [ SA.points "45,55 75,25 105,55"
             , SA.style "fill: #ffffff; stroke: #ffffff; stroke-width: 1"
@@ -112,7 +112,7 @@ viewChatBubbleChevrons =
             , SA.style "fill: #5959e4; stroke: #5959e4; stroke-width: 1"
             ]
             []
-          -- bottom arrow
+          -- bottom chevron
         , S.polygon
             [ SA.points "45,95 75,65 105,95"
             , SA.style "fill: #ffffff; stroke: #ffffff; stroke-width: 1"
