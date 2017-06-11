@@ -89,7 +89,7 @@ viewChatBubbleChevrons =
         -- chat bubble triangle
         [ S.polygon
             [ SA.points "15,85 40,110 5,120"
-            , SA.style "fill: #5959e4; stroke: #5959e4; stroke-width: 1"
+            , SA.style "fill: #000000; stroke: #000000; stroke-width: 1"
             ]
             []
           -- chat bubble oval
@@ -98,29 +98,29 @@ viewChatBubbleChevrons =
             , SA.cy "65"
             , SA.rx "70"
             , SA.ry "60"
-            , SA.style "fill: #5959e4; stroke: #5959e4; stroke-width: 1"
+            , SA.style "fill: #000000; stroke: #000000; stroke-width: 1"
             ]
             []
           -- top chevron
         , S.polygon
             [ SA.points "45,55 75,25 105,55"
-            , SA.style "fill: #ffffff; stroke: #ffffff; stroke-width: 1"
+            , SA.style "fill: #5959e4; stroke: #5959e4; stroke-width: 1"
             ]
             []
         , S.polygon
             [ SA.points "60,55 75,40 90,55"
-            , SA.style "fill: #5959e4; stroke: #5959e4; stroke-width: 1"
+            , SA.style "fill: #000000; stroke: #000000; stroke-width: 1"
             ]
             []
           -- bottom chevron
         , S.polygon
             [ SA.points "45,95 75,65 105,95"
-            , SA.style "fill: #ffffff; stroke: #ffffff; stroke-width: 1"
+            , SA.style "fill: #5959e4; stroke: #5959e4; stroke-width: 1"
             ]
             []
         , S.polygon
             [ SA.points "60,95 75,80 90,95"
-            , SA.style "fill: #5959e4; stroke: #5959e4; stroke-width: 1"
+            , SA.style "fill: #000000; stroke: #000000; stroke-width: 1"
             ]
             []
         ]
