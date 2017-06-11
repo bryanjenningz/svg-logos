@@ -108,7 +108,7 @@ viewChatBubbleChevrons =
             ]
             []
         , S.polygon
-            [ SA.points "60,55 75,40 90,55"
+            [ SA.points "65,55 75,45 85,55"
             , SA.style "fill: #000000; stroke: #000000; stroke-width: 1"
             ]
             []
@@ -119,7 +119,7 @@ viewChatBubbleChevrons =
             ]
             []
         , S.polygon
-            [ SA.points "60,95 75,80 90,95"
+            [ SA.points "65,95 75,85 85,95"
             , SA.style "fill: #000000; stroke: #000000; stroke-width: 1"
             ]
             []
