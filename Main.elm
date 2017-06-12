@@ -88,7 +88,7 @@ viewChatBubbleChevrons =
         [ SA.width "200", SA.height "200" ]
         -- chat bubble triangle
         [ S.polygon
-            [ SA.points "15,85 40,110 5,120"
+            [ SA.points "130,85 145,120 105,110"
             , SA.style "fill: #000000; stroke: #000000; stroke-width: 1"
             ]
             []
@@ -104,7 +104,7 @@ viewChatBubbleChevrons =
           -- top chevron
         , S.polygon
             [ SA.points "45,55 75,25 105,55"
-            , SA.style "fill: #5959e4; stroke: #5959e4; stroke-width: 1"
+            , SA.style "fill: #007098; stroke: #007098; stroke-width: 1"
             ]
             []
         , S.polygon
@@ -115,7 +115,7 @@ viewChatBubbleChevrons =
           -- bottom chevron
         , S.polygon
             [ SA.points "45,95 75,65 105,95"
-            , SA.style "fill: #5959e4; stroke: #5959e4; stroke-width: 1"
+            , SA.style "fill: #007098; stroke: #007098; stroke-width: 1"
             ]
             []
         , S.polygon
